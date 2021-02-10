@@ -1,0 +1,58 @@
+body,
+html {
+	background-color: black;
+	  background-blend-mode: multiply;
+
+}
+
+
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 650px) {
+
+@font-face {
+font-family: "Tiny Grotesk Narrow";
+src: 	url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-NarrowRegular.woff") format("woff"),
+		url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-NarrowRegular.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Tiny Grotesk";
+src: 	url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-Regular.woff") format("woff"),
+}
+  
+} 
+
+h1 {
+	font-style: none;
+	font-family: times, serif;
+	letter-spacing: .1em;}
+
+.circle { 
+	width:100%; 
+	height:100vh;
+	border-radius: 50%;
+	background-color: black;
+	color: white; 
+margin: 0 auto 0 auto;}
+
+.essay{ 
+	width:100%; 
+	height:100%;
+	-webkit-border-radius: 50%;
+	font-family: "arial", sans-serif;
+	border-radius: 50%;
+	text-align: center;
+	text-size-adjust: auto;
+	line-height: 2em;
+	letter-spacing: .5em;
+	overflow: scroll;
+
+}
+
+blockquote{ 
+font-family: "Tiny Grotesk Narrow", sans-serif;
+font-size: 1.1em;
+line-height: 1.4em;}
