@@ -49,6 +49,49 @@ body {
 }
 
 
+/* Essay Typography */
+
+.nav {
+  font-family: "Everson Mono Bold", monospace;
+  font-size: 4em;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  width: 70vw;
+  margin: 0 auto -.75em auto;
+  color: white;
+}
+
+p.nav-entry {
+  font-family: "Everson Mono Bold", monospace;
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.25em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  width: 70vw;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d73b3e;
+}
+
+
 
 /* Essay Typography */
 
