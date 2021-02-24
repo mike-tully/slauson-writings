@@ -59,6 +59,8 @@ h1.essay-title {
   letter-spacing: .25em;
   margin-top: 20em;
   margin-bottom: 20em;
+  width: 100%;
+  text-align: center;
 }
 
 p {
