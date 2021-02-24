@@ -6,33 +6,33 @@
 /* Global */
 
 @font-face {
-font-family: "EversonMono";
-src:  url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono.woff") format("woff"),
-      url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono.otf") format("opentype");
+font-family: "Everson Mono";
+src:  url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono.woff") format("woff"),
+      url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono.otf") format("opentype");
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-font-family: "EversonMonoItalic";
-src:  url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono-Oblique.woff") format("woff"),
-      url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono-Oblique.otf") format("opentype");
+font-family: "Everson Mono Italic";
+src:  url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono-Oblique.woff") format("woff"),
+      url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono-Oblique.otf") format("opentype");
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-font-family: "EversonMonoBold";
-src:  url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono-Bold.woff") format("woff"),
-      url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono-Bold.otf") format("opentype");
+font-family: "Everson Mono Bold";
+src:  url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono-Bold.woff") format("woff"),
+      url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono-Bold.otf") format("opentype");
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-font-family: "EversonMonoBoldItalic";
-src:  url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono-Bold-Oblique.woff") format("woff"),
-      url("https://github.com/mike-tully/slauson-writings/blob/main/css/fonts/Everson-Mono-Bold-Oblique.otf") format("opentype");
+font-family: "Everson Mono Bold Italic";
+src:  url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono-Bold-Oblique.woff") format("woff"),
+      url("https://mike-tully.github.io/slauson-writings/css/fonts/Everson-Mono-Bold-Oblique.otf") format("opentype");
 font-weight: normal;
 font-style: normal;
 }
@@ -52,19 +52,36 @@ body {
 
 /* Essay Typography */
 
-h1 {
-	font-family: "EversonMonoBold", monospace;
+h1.essay-title {
+	font-family: "Everson Mono Bold", monospace;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  margin-top: 20em;
+  margin-bottom: 20em;
 }
 
 p {
-  font-family: "EversonMono", monospace;
+  font-family: "Everson Mono", monospace;
   text-align: justify;
   width: 80vw;
   margin: 0 auto 0 auto;
+  font-size: 1em;
   line-height: 3em;
-  font-size: 0.8em;
+  letter-spacing: .25em;
   color: white;
-  letter-spacing: .5em;
+}
+
+p.excerpt {
+  font-family: "Everson Mono", monospace;
+  text-align: justify;
+  text-align: center;
+  width: 80vw;
+  margin: 0 auto 0 auto;
+  font-size: 1em;
+  line-height: 3em;
+  letter-spacing: .25em;
+  color: white;
 }
 
 h1 {
