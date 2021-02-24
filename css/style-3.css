@@ -1,0 +1,84 @@
+
+/*      CSS styling       */
+
+
+
+/* Global */
+
+@font-face {
+font-family: "Everson Mono";
+src:  url("fonts/Everson-Mono.woff") format("woff"),
+      url("fonts/Everson-Mono.otf") format("opentype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Everson Mono Italic";
+src:  url("fonts/Everson-Mono-Oblique.woff") format("woff"),
+      url("fonts/Everson-Mono-Oblique.otf") format("opentype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Everson Mono Bold";
+src:  url("fonts/Everson-Mono-Bold.woff") format("woff"),
+      url("fonts/Everson-Mono-Bold.otf") format("opentype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Everson Mono Bold Italic";
+src:  url("fonts/Everson-Mono-Bold-Oblique.woff") format("woff"),
+      url("fonts/Everson-Mono-Bold-Oblique.otf") format("opentype");
+font-weight: normal;
+font-style: normal;
+}
+
+::selection {
+  background: #383838; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #383838; /* Gecko Browsers */
+}
+
+body {
+  background-color: black;
+}
+
+
+
+/* Essay Typography */
+
+h1 {
+	font-family: "Everson-Mono", monospace;
+}
+
+p {
+  font-family: "Everson-Mono", monospace;
+  text-align: justify;
+  line-height: 3em;
+  font-size: 0.8em;
+  color: white;
+  letter-spacing: .5em;
+}
+
+h1 {
+  white-space: nowrap;
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+  line-height: 1.1em;
+  text-align: center;
+  color: white;
+}
+
+article {
+  color: #1d1a0f;
+  margin: auto;
+  width: 35em;
+  height: 35em;
+  position: relative;
+}
+
