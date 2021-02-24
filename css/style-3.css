@@ -58,6 +58,7 @@ p.essay-title {
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: .25em;
+  line-height: 1.25em;
   margin-top: 20em;
   margin-bottom: 20em;
   width: 90vw;
