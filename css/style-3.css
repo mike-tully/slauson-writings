@@ -52,9 +52,10 @@ body {
 
 /* Essay Typography */
 
-h1.essay-title {
+p.essay-title {
 	font-family: "Everson Mono Bold", monospace;
   font-size: 1em;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: .25em;
   margin-top: 20em;
