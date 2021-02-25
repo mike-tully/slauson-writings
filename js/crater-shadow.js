@@ -27,7 +27,7 @@ const paint = (x, y) => {
   const ny = (my - py) / (r.bottom - r.top + 2 * o); 
   
   requestAnimationFrame(() => {
-    p.style.boxShadow = `inset ${-1 * nx * o}px ${-1 * ny * o}px 25px var(--shadow-color)`;
+    p.style.boxShadow = `inset ${-1 * nx * o}px ${-1 * ny * o}px 45px var(--shadow-color)`;
   }); console.log (px, py, mx, my)
 };
 
