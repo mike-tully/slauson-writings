@@ -11,8 +11,11 @@ display: relative;
 
 .insetShadow{
 display: relative;
-width:97vw;
-height:97vh;
+position: fixed;
+width:97%;
+margin: 0 auto 0 auto;
+height:0;
+padding-bottom: 97%;
 border-radius: 50%;
 box-shadow: inset  20px -20px 25px rgba(255,255,255,0.6);
 -moz-box-shadow: inset  20px -20px 25px rgba(255,255,255,0.6);
