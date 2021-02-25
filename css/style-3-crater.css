@@ -53,6 +53,19 @@ body {
 
 
 
+/* Global – Shadow JS */
+
+
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --shadow-color: rgba(255,255,255,0.6);
+  --button-color: blue;
+  --color: white;
+}
+
+
+
 /* Global – Crater & Main Nav */
 
 
@@ -68,15 +81,11 @@ body {
 
 .insetShadow{
   position: fixed;
-  width:97vw;
-  margin: 0 auto 0 auto;
+  width:80vw;
+  margin: 0 20vw 0 20vw;
   height:0;
-  padding-bottom: 97%;
+  padding-bottom: 80%;
   border-radius: 50%;
-  box-shadow: inset  20px -20px 25px rgba(255,255,255,0.6);
-  -moz-box-shadow: inset  20px -20px 25px rgba(255,255,255,0.6);
-  -webkit-box-shadow: inset  20px -20px 25px rgba(255,255,255,0.6);
-  -o-box-shadow: inset  20px -20px 25px rgba(255,255,255,0.6);
 }
 
 
